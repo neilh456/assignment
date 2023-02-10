@@ -50,7 +50,7 @@ jobs:
         tags: ${{ env.AWS_REGION }}.dkr.ecr.amazonaws.com/ipapp_docker:${{ env.GITHUB_SHA }}
 ````
 - I could not get this working on the mac
-`````
+````
  - name: Build Docker image
       uses: docker/build-push-action@v2
       with:
